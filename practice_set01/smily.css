@@ -1,0 +1,38 @@
+#face {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+#mouth {
+  height: 70px;
+  width: 150px;
+  background-color: red;
+  border-radius: 170%;
+
+  position: absolute;
+  top: 330px;
+  left: 560px;
+}
+#left {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 230px;
+  left: 560px;
+}
+#right {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 230px;
+  left: 670px;
+}

@@ -1,0 +1,98 @@
+/* universal Selector */
+
+* {
+  font-family: "Courier New";
+}
+/* Element Selector */
+h1,
+h3 {
+  color: brown !important;
+}
+/* Id Selector */
+#login {
+  background-color: white;
+}
+
+#signup {
+  background-color: rgb(150, 18, 18);
+  color: white;
+}
+
+/* Class Selector */
+
+.upvote {
+  background-color: green;
+  color: aliceblue;
+}
+
+/* Decendent Selector */
+.post a {
+  background-color: yellow;
+  color: black;
+}
+
+nav a {
+  color: hotpink;
+}
+/* nav ul li a {
+  color: hotpink;
+} */
+
+/* sibling combinator */
+
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: blueviolet;
+}
+
+/* child Combinator */
+
+div > input {
+  background-color: aquamarine;
+}
+
+/* attribute Selector */
+
+input[type="text"] {
+  color: green;
+}
+input[type="password"] {
+  color: red;
+}
+
+input[type] {
+  background-color: ghostwhite;
+}
+
+/* pesudo class */
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: rgb(241, 15, 181);
+}
+
+input[type="radio"]:checked + label {
+  color: blue;
+  font-weight: bold;
+}
+
+/* pesudo element */
+
+h1::first-letter {
+  color: black;
+}
+
+p::first-line {
+  color: darkorchid;
+}
+
+p::selection {
+  background-color: aqua;
+}
