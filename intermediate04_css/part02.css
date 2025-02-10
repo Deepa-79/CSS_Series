@@ -1,0 +1,39 @@
+#container {
+  height: 300px;
+  width: 80%;
+  background-color: aliceblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* justify-content: space-around;*/
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  /* /* align-content: flex-end; */
+  align-content: center;
+} 
+
+#orange {
+  /* align-self: flex-end; */
+  align-self: center;
+  /* flex-basis: 200px; */
+  flex-grow: 1;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#container div {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}

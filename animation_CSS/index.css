@@ -1,0 +1,28 @@
+.box {
+  width: 500px;
+  height: 200px;
+  background-color: aquamarine;
+  animation-name: widthAnimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes Font_animation {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 50px;
+  }
+}
+@keyframes widthAnimate {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 800px;
+  }
+}
