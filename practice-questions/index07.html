@@ -1,0 +1,33 @@
+Solution:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Header</title>
+    <style>
+      header {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+      }
+      main {
+        height: 2000px; /* Just to make the page scrollable */
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>
+      Question: Create a sticky header that stays at the top of the page as you
+      scroll down. The header should have a background color of #333, and the
+      text color should be white.
+    </h3>
+    <header>Sticky Header</header>
+    <main>Scroll down to see the sticky header in action.</main>
+  </body>
+</html>

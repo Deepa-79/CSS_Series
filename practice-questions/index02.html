@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Effect on Links</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      a:hover {
+        color: white; /* Change link color to red on hover */
+        background-color: rgb(122, 90, 220);
+      }
+      .header {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        height: 30px;
+        width: 100%;
+        background-color: aqua;
+        top: 0;
+        z-index: 10;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 5px 5px;
+        border-radius: 20px;
+        transition: 0.3s ease;
+      }
+      main {
+        height: 2000px;
+        width: 100%;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h3>Hover Effect on Links</h3> -->
+    <div class="header">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <main>scroll down to see the position sticky</main>
+  </body>
+</html>
